@@ -1,0 +1,11 @@
+window=firstmate:fm-devin-manual
+endpoint_task_id=devin-manual
+worktree=<lab>/wt
+project=<lab>/project
+harness=devin
+kind=scout
+tasktmp=/tmp/fm-devin-manual
+model=swe-2-medium
+effort=high
+busy_gen=g1790021330.76503.19472
+spawn_gen=s1790021330.76104.10230

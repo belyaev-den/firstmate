@@ -1,0 +1,37 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "'<root>/bin/fm-busy-event.sh' apply '<lab>/home/state' 'devin-manual' busy --gen 'g1790021330.76503.19472' --source devin-hook --event user-prompt-submit >/dev/null 2>&1 || true",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "'<root>/bin/fm-busy-event.sh' apply '<lab>/home/state' 'devin-manual' idle --gen 'g1790021330.76503.19472' --source devin-hook --event stop >/dev/null 2>&1 && touch '<lab>/home/state/devin-manual.turn-ended'; true",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "'<root>/bin/fm-busy-event.sh' apply '<lab>/home/state' 'devin-manual' idle --gen 'g1790021330.76503.19472' --source devin-hook --event session-end >/dev/null 2>&1 || true",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

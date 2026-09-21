@@ -1,0 +1,9 @@
+ok - secondmate launch refused: error: devin is a verified crewmate/scout adapter only and cannot run a secondmate; it has no primary supervision protocol. Select a harness verified for secondmates.
+ok - fm-spawn produced launch command, meta, private config for model swe-2-medium
+ok - launch brief executed (answer.txt=80235), Stop hook settled to idle devin-hook, agent alive
+ok - idle composer classified empty
+ok - fm-send doorbell: steer.txt=1147, inbox message acknowledged into handled/, settled to idle devin-hook
+ok - fm-control interrupt: Devin rendered Canceled, agent alive, state unknown fm-interrupt, cancel=unconfirmed
+ok - fm-control exit: /quit returned the pane to a shell; busy record: unknown missing
+ok - devin 3000.11.1 (cc4e349ca55e) manual drive complete (model swe-2-medium)
+exit=0

@@ -1,0 +1,1 @@
+stopped devin-manual harness=devin backend=tmux endpoint=firstmate:fm-devin-manual worktree=<lab>/wt
